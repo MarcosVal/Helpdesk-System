@@ -1,0 +1,46 @@
+<tr><td colspan="10">
+<div>
+<div style="width: 50%; overflow: scroll; float:right; height: 150px;">
+<span style="float: left;">Case Notes:</span>
+<p class="descClass">${v.Case_Notes}</p>
+</div>
+<div style="float: left; overflow: scroll; width: 49%; height: 100%;">
+<span style="float: left;">Specialist Assigned:</span><p style="margin: 0;" class="specialClass"> ${v.Assigned_Specialist}</p>
+<span style="float: left;">Case Description: </span><p style="margin: 0;" class="caseNotesClass">${v.Case_Description}</p>
+<span style="clear:both; float: left;">Solution:</span><p style="margin: 0;" class="solutionClass"> ${v.Case_Solution}</p>
+<span style="float: left;">Case Status:</span>
+<p class="caseStatsClass"> ${v.Case_Status}</p>
+<select class="statSelector" style="display: none;">
+<option value="default">Please Select</option>
+<option value="Open">Open</option>
+<option value="Closed">Closed</option>
+<option value="In Progress">In Progress</option>
+<option value="Resolved">Resolved</option>
+</select>
+</div>
+</div>
+</tr>
+
+
+<tr><td colspan="10">
+<div>
+<div style="width: 50%; overflow: scroll; float:right; height: 150px;">
+<span style="float: left;">Case Notes:</span>
+<p class="descClass">${v.Case_Notes}</p>
+</div>
+<div style="float: left; overflow: scroll; width: 49%; height: 150px;">
+<span style="float: left;">Specialist Assigned:</span><p style="margin: 0;" class="specialClass"> ${v.Assigned_Specialist}</p>
+<span style="float: left;">Case Description: </span><p style="margin: 0;" class="caseNotesClass">${v.Case_Description}</p>
+<span style="clear:both; float: left;">Solution:</span><p style="margin: 0;" class="solutionClass"> ${v.Case_Solution}</p>
+<span style="float: left;">Case Status:</span>
+<p style="margin: 0;" class="caseStatsClass"> ${v.Case_Status}</p>
+<select class="statSelector" style="display: none;">
+<option value="default">Please Select</option>
+<option value="Open">Open</option>
+<option value="Closed">Closed</option>
+<option value="In Progress">In Progress</option>
+<option value="Resolved">Resolved</option>
+</select>
+</div>
+</div>
+</tr>

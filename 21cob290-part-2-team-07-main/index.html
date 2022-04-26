@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<title>Make-It-All Login</title>
+
+        <style type="text/css">
+            body{
+                background-color: #686868;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            form{
+                display: inline-block;
+                margin: 200px auto;
+                position: absolute;
+                transform: translate(-50%, -50%);
+            }
+            div{
+                width: 150px;
+                padding-bottom: 20px;
+            }
+            h1{
+                color: #e6f371;
+                font-size: 80px;
+            }
+            label{
+                font-size: 45px;
+                display: block;
+                color: #6AB0DE;
+                
+            }
+            input{
+                border: 2px solid #6AB0DE;
+                border-radius: 3px;
+                width: 300px;
+                font-size: 30px;
+                margin: auto;
+                display: block;
+            }
+            button{
+                margin: 20px auto;
+                width: 300px;
+                background-color: #6AB0DE;
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        </style>
+
+	</head>
+	<body>
+		<h1>Welcome to Make-It-All</h1>
+        
+        <form method="post">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </div>
+			<div>
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div>
+                <label for="2FAcode">2FAcode</label>
+                <input type="2FAcode" id="2FAcode" required>
+            </div>
+			
+            <span id="error"></span>
+
+			<button type="button" onclick="checkInputs()" >Login</button>
+		</form>
+
+		<script src="index.js"></script>
+	</body>
+</html>
